@@ -1,0 +1,21 @@
+.banner-btn {
+  margin-bottom: 20px;
+  background: goldenrod;
+  color: white;
+  padding: 1em;
+  border-radius: 30px;
+  transition: all .3s;
+  border-color: black 2px solid;
+  width: 100px;
+  height: 5px;
+  font-size: 16px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-btn:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}

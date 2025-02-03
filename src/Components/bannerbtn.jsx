@@ -1,8 +1,9 @@
+import React from 'react';
 import './bannerbtn.css';
 
-const BannerBtn = ({ sectionName }) => {
+function BannerBtn ({ sectionName }) {
   return (
-    <div className="banner-btn">{sectionName}</div>
+    <button className="btn">{sectionName}</button>
   )
 }
 

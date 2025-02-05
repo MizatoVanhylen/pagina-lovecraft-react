@@ -1,6 +1,8 @@
 import './banner.css';
 import BannerBtn from './Bannerbtn';
 import bannerImg from '../assets/img/bannerImg.jpg';
+import Biografia from './Biografia';
+import Bestiario from './Bestiario';
 
 const Banner = () => {
   return (

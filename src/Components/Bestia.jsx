@@ -1,12 +1,13 @@
 import React from 'react';
-import './bestia.css';  // Estilos específicos para este componente
+import './bestia.css';
 
-const Bestia = ({ nombre, descripcion, imagen }) => {
+const Bestia = ({ nombre,relato, descripcion, imagen }) => {
   return (
-    <div className="bestia-card">
-      <img className="bestia-imagen" src={imagen} alt={nombre} />
-      <h2 className="bestia-nombre">{nombre}</h2>
-      <p className="bestia-descripcion">{descripcion}</p>
+    <div className="bestia_card">
+      <h2 className="bestia_nombre">{nombre}</h2>
+      <img className="bestia_imagen" src={imagen} alt={nombre} />
+      <p className='bestio_relato'>{relato}</p>
+      <p className="bestia_descripcion">{descripcion}</p>
     </div>
   );
 };

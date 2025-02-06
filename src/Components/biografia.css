@@ -1,4 +1,4 @@
-.titlle{
+.title_biografia{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
   color:orange;
@@ -6,14 +6,14 @@
   margin-top: 0;
   padding: 50px;
 }
-.contenedor-texto-biografia{
+.contenedor_texto_biografia{
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   align-items: center;
 }
-.texto-biografia{
+.texto_biografia{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   text-align: justify;
@@ -21,13 +21,13 @@
   color: white;
 }
 
-.imagen-lovecraft{
+.imagen_lovecraft{
   height: 500px;
   border-radius: 80px;
   margin-bottom: 50px;
 }
 
-.subtittle{
+.subtitle{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   color:rgb(217, 123, 0);

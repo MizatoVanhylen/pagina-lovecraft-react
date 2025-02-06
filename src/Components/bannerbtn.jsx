@@ -1,10 +1,10 @@
 import React from 'react';
 import './bannerbtn.css';
 
-function BannerBtn ({ sectionName }) {
-  return (
-    <button className="btn">{sectionName}</button>
-  )
-}
+const BannerBtn = ({ sectionName, onClick }) => (
+  <button className='btn' onClick={onClick}>
+    {sectionName}
+  </button>
+);
 
 export default BannerBtn;

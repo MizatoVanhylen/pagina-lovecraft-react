@@ -7,7 +7,7 @@ import Bestiario from './Bestiario';
 import Relatos from './Relatos';
 
 const Banner = () => {
-  const [estado, setEstado] = useState(null);
+  const [estado, setEstado] = useState('Biografía');
 
   const handleSectionClick = (sectionName) => {
     setEstado(sectionName);

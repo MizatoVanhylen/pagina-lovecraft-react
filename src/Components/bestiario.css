@@ -17,8 +17,10 @@
   }
 
 .contenedor_buscador {
+  width: 100%;
+  margin: auto;
   display: flex;
-  margin-bottom: 20px;
+  justify-content: center;
 }
 
 .boton_input {
@@ -43,8 +45,7 @@
 .lista_bestiario{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-content: center;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
